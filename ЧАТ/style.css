@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+main {
+    display: block;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+div.wrapper {
+    min-height: 95vh;
+}
+
+#chatHistory {
+    min-height: 30vh;
+    height: 40vh;
+    color: #000;
+    background-color: rgba(200, 200, 200, .1);
+    font-size: 1.5rem;
+    border: 1px solid #808080;
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.my-time {
+    color: #0000ff;
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+.my-nick {
+    color: #ff0000;
+    padding-right: 1rem;
+}
+
+.my-message iframe {
+ 
+}
+
+label {
+    font-size: 1.3rem;
+    display: block;
+}
+
+input {
+    max-width: 40%;
+    min-width: 40%;
+    min-height: 2.2rem;
+    padding: .5rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#message {
+    width: 100%;
+    min-width: 40%;
+    min-height: 5rem;
+    resize: none;
+    padding: .5rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 5px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}

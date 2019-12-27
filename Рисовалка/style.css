@@ -1,0 +1,11 @@
+#canvas{
+    border:solid 2px gray;
+	width: 400px;
+}
+input,select{
+    font-size: 20px;
+    width: 1200px;
+}
+body{
+    font-size: 20px;
+}
